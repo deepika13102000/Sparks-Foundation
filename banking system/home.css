@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    
+}
+.header img{
+    position: absolute;
+    width: 154px;
+    margin: 5px;
+    top: -2px;
+}
+.header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    background-image: linear-gradient(rgb(121, 121, 238), rgb(114, 249, 73));
+    text-align: center;
+}
+marquee{
+    margin:16px
+}
+.container{
+    min-height: 80vh;
+    background-image:linear-gradient(rgb(209, 209, 248), rgb(189, 241, 173)) ;
+    background: url(bank-building.jpg);
+    opacity: 70%;
+}
+ span{
+    font-family: cursive;
+    font-size: 60px;
+    text-align: center;
+    opacity: 100%;
+    position: absolute;
+    top: 278px;
+    left: 350px;
+    font-weight: bold;
+}
+.warning{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.23);
+    top: 91px;
+    left: 20px;
+    animation:effect 1s linear infinite;
+    opacity: 100;
+}
+@keyframes effect{
+    0%{
+        background: #ff0000;
+        -webkit-background-clip: text;    
+    }
+    20%{
+        background:  #67d314;
+        -webkit-background-clip: text; 
+    }
+    40%{
+        background:  #1714d3;
+        -webkit-background-clip: text; 
+    }
+    60%{
+        background:  #d31477;
+        -webkit-background-clip: text; 
+    }
+    80%{
+        background:  #08382f;
+        -webkit-background-clip: text; 
+    }
+    100%{
+        background:  #ad14d3;
+        -webkit-background-clip: text; 
+    }
+}
+
+.button{
+    cursor: pointer;
+    position: absolute;
+    top: 370px;
+    left: 640px;
+
+}
+.button a:hover{
+    color: black;
+}

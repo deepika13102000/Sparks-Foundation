@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DS Bank</title>
+    <link rel="stylesheet" href="bank.css">
+</head>
+
+<body>
+    <div class="header">
+        <img src="BANK pic.jpg" alt="bank pic">
+        <h1>DS Bank Limited</h1>
+        <marquee direction="left">WELCOME TO DS BANK &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+            &nbsp;&nbsp;WELCOME TO DS BANK
+            &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;WELCOME TO DS BANK &nbsp;&nbsp;
+            &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;</marquee>
+    </div>
+    <div class="container">
+        <ul>
+            <li><a href="home.html">Home Page</a></li>
+                   </ul>
+        <div class="Customers">
+            <label for="Nameinput">Name</label>
+            <input type="text" id="nameInput" placeholder="Enter your Name"><br>
+            <label for="Emailinput">Email</label>
+            <input type="text" id="emailInput" placeholder="Enter your Email"><br>
+            <label for="amountInput">Amount</label>
+            <input type="text" id="amountInput" placeholder="Enter your Amount"><br>
+            <button onclick="addData()"> Add </button>
+        </div>
+        <table id="outputTable">
+            <tr>
+                <th>NAME</th>
+                <th>EMAIL</th>
+                <th>BALANCE</th>
+                <th>ACTION</th>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    <div class="footer">
+        <span>Terms And Conditions Applied</span>
+    </div>
+    <script src="bank.js"></script>
+</body>
+
+</html>

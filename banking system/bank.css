@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    background-image: linear-gradient(rgb(121, 121, 238), rgb(114, 249, 73));
+    text-align: center;
+}
+
+.header img {
+    position: absolute;
+    width: 154px;
+    margin: 5px;
+    top: -2px;
+
+}
+
+.container ul {
+    display: flex;
+    list-style: none;
+}
+
+.container ul li {
+    margin: 5px;
+    padding: 4px;
+    
+}
+.container ul li a:hover{
+    color: black;
+}
+
+.Customers {
+    background-color: rgb(232, 255, 255);
+    border: 10px solid black;
+    border-radius: 6px;
+    
+}
+
+.Customers label {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 3px;
+}
+
+.Customers input {
+    display: flex;
+    font-family: cursive;
+    position: relative;
+    left: 556px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.Customers button {
+    cursor: pointer;
+    position: relative;
+    left: 629px;
+    margin-bottom: 10px;
+}
+
+#outputTable tr th {
+    margin: 5px;
+    padding: 34px;
+    position: relative;
+    left:340px;
+    border: 2px solid black;
+    background-image: linear-gradient(rgb(121, 121, 238), rgb(114, 249, 73));
+    color:rgb(255 255 233);;
+    font-weight: bold;
+}
+
+#outputTable td {
+    cursor: pointer;
+    padding: 34px;
+    margin: 10px;
+    position: relative;
+    left:340px;
+    border: 2px dotted black;
+}
+
+#outputTable tr:nth-child(even){
+    background-color: rgb(195, 239, 255);
+}
+hr{
+    margin-top: 130px;
+}
+.footer span{
+    display: flex;
+    justify-content: center;
+   
+
+}
