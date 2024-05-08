@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+   
+    <div class="header">
+        <img src="donate.png" alt="environment"/>
+        <h3>Paying to Payment Gateway</h3>
+        </div>
+        <div class="Customers">
+            <form method="post" >
+                <label for="paymentInput">Purpose Of Payment</label>
+                <input type="text" id="paymentInput" required ><br />
+                <label for="amountInput">Amount</label>
+                <input type="text" id="amountInput" required><br />
+            <label for="nameInput">NAME</label>
+            <input type="text" id="nameInput" required><br>
+            <label for="emailInput">EMAIL</label>
+            <input type="text" id="emailInput" required><br>
+            <label for="mobileInput">MOBILE NO.</label>
+            <input type="number" id="mobileInput" required><br>
+            <label for="cardNumber">Card Number</label>
+            <input type="password" id="cardNumber" name="cardNumber" required>
+            <label for="cvv">CVV</label>
+            <input type="text" id="cvv" name="cvv"  required>
+            <label for="expiry">Expiry Date (MM/YYYY)</label>
+            <input type="text" id="expiry" name="expiry"  required>
+            <input type="checkbox" id="checkbox" name="checkbox" required>
+            <p>I agree with terms and conditions</p>
+            <button id="paybutton" onclick="savefile()">Pay</button>
+        </form>
+            </div>
+            <footer>powered by <span>Instamojo</span> </footer>
+            <script src="homepage.js"></script>
+            <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>

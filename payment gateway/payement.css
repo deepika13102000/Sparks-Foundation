@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+marquee{
+    top:10px;
+}
+.header{
+    background-image: linear-gradient(rgb(213, 244, 140), rgb(114, 249, 73));
+    padding: 18px;
+}
+
+.header img{
+    margin:43px;
+    border-radius: 15px;
+    border: 4px solid white;
+}
+
+h1{
+    text-align: center;
+    padding: 37px;
+    margin-top: -382px;
+    margin-left: 559px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.23);
+    animation:effect 1s linear infinite;
+    opacity: 100;
+    font-size: 44px;
+}
+@keyframes effect{
+    0%{
+        background: #ff0000;
+        -webkit-background-clip: text;    
+    }
+    20%{
+        background:  #67d314;
+        -webkit-background-clip: text; 
+    }
+    40%{
+        background:  #1714d3;
+        -webkit-background-clip: text; 
+    }
+    60%{
+        background:  #d31477;
+        -webkit-background-clip: text; 
+    }
+    80%{
+        background:  #08382f;
+        -webkit-background-clip: text; 
+    }
+    100%{
+        background:  #ad14d3;
+        -webkit-background-clip: text; 
+    }
+}
+
+
+p{
+    font-family: cursive;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -79px;
+    margin-left: 628px;
+    padding: 37px;
+}
+
+.button{
+    position: absolute;
+    left: 648px;
+    margin: -25px;
+    margin-top: -34px;
+    background-color: rgb(128, 241, 128);
+    width: 168px;
+    color: black;
+    border-radius: 10px;
+    border-color: #000000;
+    font-family: cursive;
+    font-weight: bold;
+
+}
+.button:hover{
+    background-color: aqua;
+    color: #ff0000;
+}
+
+.headline p {
+    margin: 4px;
+    padding: 93px;
+    margin-top: 6px;
+    margin-left: 10px;
+    font-size: 16px;
+    background-color: rgb(171, 210, 197);
+}
+

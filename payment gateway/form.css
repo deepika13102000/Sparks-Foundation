@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background: #e3e3c5;
+    padding: 306px;
+  }
+  .header img {
+    width: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 17%;
+    margin-top: -283px;
+  }
+  
+  h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 21%;
+    margin-top: -52px;
+    font-size: 27px;
+    background-color: rgb(191, 190, 190);
+    width: 478px;
+  }
+  
+  .Customers {
+    margin-top: -595px;
+    margin-left: 418px;
+    border: 4px solid rgb(243, 239, 239);
+    width: 33%;
+    padding: 38px;
+    background-image: linear-gradient(rgb(221 221 221), rgb(252 255 223 / 14%));
+  }
+  
+  .Customers label {
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+    margin-left: 33px;
+    font-weight: bold;
+  }
+  
+  .Customers input {
+    display: flex;
+    font-family: cursive;
+    position: relative;
+    left: 79px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 296px;
+  }
+  .Customers button {
+    cursor: pointer;
+    position: relative;
+    left: 82px;
+    margin-top: 15px;
+    width: 299px;
+    border-radius: 5px;
+  }
+  .Customers button:hover{
+    background-color: aqua;
+    color: red;
+  }
+ 
+  footer {
+    display: flex;
+    margin-left: 625px;
+    text-align: center;
+    margin-top: 4px;
+    color: gray;
+    font-size: 14px;
+  }
+  footer span {
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: -2px;
+  }
+  #checkbox{
+    margin-left: -99px;
+    margin-top: 9px;
+
+  }
+  p{
+    margin-left: 149px;
+    margin-top: -13px;
+    font-size: 13px;
+  }
